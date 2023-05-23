@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="=" width=device-width, initial-scale="1.0">
+    <title>Discover the essence of Meghana Dumpala's website.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <nav>
+                <div class="logos">
+                    MD
+                </div>
+                <ul>
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a href="intro.html">Intro</a>
+                    </li>
+                    <li>
+                        <a href="Education.html">Education</a>
+                    </li>
+                    <li>
+                        <a href="skills.html">Skills</a>
+                    </li>
+                    <li>
+                        <a href="profiles.html">Social Profiles</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact Me</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="contactform">
+                <style>
+                    h1 {
+                        padding-left: 29px;
+                        padding-top: 30px;
+                        font-size: 48px;
+                        font-weight: 400;
+                        color: bisque;
+                        margin-bottom: 10px;
+                        animation: wordAnimation 4s linear infinite;
+                    }
+
+                    h3 {
+                        padding-left: 20px;
+                        font-size: 28px;
+                        font-weight: 200;
+                        margin-bottom: 30px;
+                    }
+                </style>
+                <h1>Contact Me</h1><br>
+                <h3 class="typewriter">You can reach out to me through Linkedin or through Gmail</h3><br><br><br>
+                <script>
+                    function showEmail() {
+                        var email = "meghanadumpala4@gmail.com"; // Replace with your email address
+                        var emailLink = document.getElementById("email-link");
+                        emailLink.href = "mailto:" + email;
+                        emailLink.innerHTML = email;
+                    }
+
+                    function showLinkedInProfile() {
+                        var linkedinURL = "https://www.linkedin.com/in/meghana-dumpala-671450188"; // Replace with your LinkedIn profile URL
+                        var linkedinLink = document.getElementById("linkedin-link");
+                        linkedinLink.href = linkedinURL;
+                        linkedinLink.innerHTML = "Visit my LinkedIn Profile";
+                    }
+                </script>
+                <button class="button" onclick="showEmail()">Show Email</button>
+                <a id="email-link" class="link"></a>
+                <br><br>
+                <button class="button" onclick="showLinkedInProfile()">Show LinkedIn Profile</button>
+                <a id="linkedin-link" class="link"></a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
