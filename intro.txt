@@ -1,0 +1,12 @@
+I am an undergraduate student at Gayatri Vidya Parishad College of Engineering (Autonomous), 
+pursuing B.Tech in Computer Science Engineering with a specialization in Artificial Intelligence and Machine Learning.
+ I come from Andhra Pradesh, India, and Telugu is my native language. However, I am fluent in both English and Hindi.
+At present, I am actively exploring my technical niche and continuously expanding my knowledge.
+ Python and Java hold a special place in my heart as my preferred programming languages. 
+ My career aspirations lie in the field of Machine Learning. Additionally, I possess intermediate-level skills 
+ in frontend development and have a strong command of Java programming.
+
+I derive great pleasure from unleashing my creativity. I have a knack for problem-solving, 
+and I approach everything with a logical mindset. Coding and browsing the web are among my favorite activities. 
+Manipulating and finding patterns in numbers is something I thoroughly enjoy. When I'm not engrossed in these activities,
+ you can find me indulging in my favorite hobbies of watching movies and reading thrilling novels.
